@@ -38,6 +38,7 @@
 	       <configuration>
 	          <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
 		     <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
+		       <forkMode>once</forkMode>
 		       </configuration>
 		         <executions>
 			    <execution>
